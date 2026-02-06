@@ -31,7 +31,7 @@ The goal of this lab is to understand how phishing attacks are conducted, how us
 - Landing page hosted for interaction tracking
 - Campaign metrics analyzed via GoPhish dashboard
 
-<img src="Architecture.png" width="700">
+<img src="Architecture.png" width="350">
 
 
 ---
