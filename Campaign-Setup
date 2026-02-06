@@ -1,0 +1,114 @@
+# Campaign Setup – GoPhish Phishing Awareness Lab
+
+## Purpose
+The objective of this campaign was to simulate a phishing attempt within a controlled lab environment to better understand:
+
+- How phishing emails are structured
+- Indicators of malicious intent
+- User interaction patterns
+- Methods for improving organizational security awareness
+
+⚠️ No real users or credentials were involved. Test accounts were used exclusively.
+
+---
+
+## Environment Configuration
+
+**Platform:** GoPhish  
+**Host:** Local Linux Machine  
+**Admin Interface:** Port 3333  
+**Landing Page:** Port 80  
+
+The environment was isolated to prevent unintended external email delivery.
+
+---
+
+## Campaign Components
+
+### Email Template
+A simulated notification-style email was created to replicate common phishing tactics such as:
+
+- Sense of urgency  
+- Account verification request  
+- Embedded hyperlink  
+
+The template was designed for educational analysis rather than deception.
+
+---
+
+### Sending Profile
+A test SMTP service was configured to safely send emails to controlled inboxes.
+
+**Configuration Included:**
+- SMTP host
+- Port
+- Authentication
+- From address (test domain)
+
+---
+
+### Landing Page
+A basic landing page was hosted through GoPhish to track user interaction after link clicks.
+
+**Tracking Enabled:**
+- Email opens  
+- Link clicks  
+- Form submissions (disabled or using dummy fields)
+
+No sensitive data was collected.
+
+---
+
+### User Group
+The campaign targeted **test email accounts only** to simulate user behavior without impacting real individuals.
+
+---
+
+## Execution Process
+
+1. Configured sending profile  
+2. Built email template  
+3. Created a test user group  
+4. Launched the campaign  
+5. Monitored results through the GoPhish dashboard  
+
+---
+
+## Metrics Observed
+
+The following data points were analyzed:
+
+- Open rate  
+- Click-through rate  
+- Interaction timeline  
+
+These metrics help security teams understand behavioral risk patterns.
+
+---
+
+## Key Takeaways
+
+- Emails creating urgency tend to increase interaction rates.
+- Users should always verify sender domains before clicking links.
+- Security awareness training is critical in reducing phishing risk.
+
+---
+
+## Security & Ethical Considerations
+
+This campaign was conducted strictly for:
+
+✅ Educational purposes  
+✅ Defensive security training  
+✅ Understanding attacker techniques  
+
+The lab followed ethical guidelines and did not involve real targets.
+
+---
+
+## Future Improvements
+
+- Deploy GoPhish in Docker for portability  
+- Integrate with a SIEM to simulate alerting  
+- Analyze email headers for deeper threat detection  
+- Build multiple phishing scenarios for comparison  
