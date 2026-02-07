@@ -25,7 +25,7 @@ This lab was performed using isolated infrastructure and test accounts only. No 
 ## Campaign Dashboard
 
 <p align="center">
-  <img src="CampaignDash.png" width="700">
+  <img src=" width="700">
 </p>
 
 The GoPhish dashboard provided centralized visibility into campaign performance, enabling monitoring of email delivery, opens, clicks, and overall engagement.
