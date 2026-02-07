@@ -1,71 +1,102 @@
 # GoPhish Phishing Awareness Lab
 
-## Overview
-This project demonstrates a **controlled phishing awareness simulation** built using **GoPhish** in a safe lab environment.  
-The goal of this lab is to understand how phishing attacks are conducted, how users interact with malicious emails, and how security teams can detect and mitigate these threats.
+## Project Overview
+This project demonstrates a controlled phishing awareness simulation conducted in a secure lab environment using **GoPhish**. The objective was to understand common phishing techniques, analyze user interaction, and explore defensive strategies that organizations can use to reduce social engineering risk.
 
-⚠️ This project is for **educational and defensive purposes only**. No real users were targeted.
-
----
-
-## Objectives
-- Understand common phishing attack techniques
-- Simulate phishing campaigns in a controlled environment
-- Analyze user interaction metrics
-- Improve security awareness and email defense strategies
-
----
-
-## Tools & Technologies
-- GoPhish
-- Linux
-- SMTP
-- HTTP / HTTPS
-- Basic Networking (ports, localhost, routing)
+⚠️ **Ethical Notice:**  
+This lab was performed using isolated infrastructure and test accounts only. No real users, credentials, or external targets were involved.
 
 ---
 
 ## Lab Architecture
 
-<img src="Architecture.png" width="350">
+<p align="center">
+  <img src="Architecture.png" width="600">
+</p>
 
-1. GoPhish server hosted locally  
-2. Email sending profile configured with test SMTP  
-3. Landing page hosted for interaction tracking  
-4. Campaign metrics analyzed via GoPhish dashboard  
-
-
-
----
-
-## Key Features
-- Campaign creation and management
-- Landing page tracking
-- Email open and click-through analysis
-- Reporting on phishing indicators and risks
+### Environment Components
+1. Deployed a locally hosted GoPhish server to manage phishing simulation campaigns.  
+2. Configured a test SMTP sending profile to safely distribute simulated phishing emails.  
+3. Hosted a controlled landing page to capture interaction metrics.  
+4. Analyzed campaign data through the GoPhish dashboard to evaluate behavioral risk.  
 
 ---
 
-## Findings & Takeaways
-- Phishing emails relying on urgency resulted in higher interaction rates
-- Clear domain mismatches are a strong indicator of malicious intent
-- Security awareness training significantly reduces risk exposure
+## Campaign Dashboard
+
+<p align="center">
+  <img src="screenshots/dashboard.png" width="700">
+</p>
+
+The GoPhish dashboard provided centralized visibility into campaign performance, enabling monitoring of email delivery, opens, clicks, and overall engagement.
 
 ---
 
-## Ethical Notice
-This project was conducted in a **closed lab environment** using test accounts and dummy data.  
-No real credentials, personal data, or live targets were used.
+## Email Template Example
+
+<p align="center">
+  <img src="screenshots/email-template.png" width="700">
+</p>
+
+A realistic email scenario was created to replicate common phishing tactics such as urgency and account verification prompts.
+
+---
+
+## Landing Page Simulation
+
+<p align="center">
+  <img src="screenshots/landing-page.png" width="700">
+</p>
+
+The landing page was hosted within the lab to safely track user interaction after link clicks without collecting sensitive information.
+
+---
+
+## Campaign Results
+
+<p align="center">
+  <img src="screenshots/campaign-results.png" width="700">
+</p>
+
+Metrics collected from the simulation helped illustrate how phishing attacks succeed and reinforced the importance of user awareness training.
+
+---
+
+## Tools & Technologies
+- GoPhish  
+- Linux  
+- SMTP Configuration  
+- HTTP/HTTPS  
+- Networking Fundamentals  
+- Security Awareness Practices  
+
+---
+
+## Skills Demonstrated
+- Phishing attack simulation in a controlled environment  
+- Security-focused infrastructure setup  
+- Social engineering risk analysis  
+- Technical documentation  
+- Threat awareness and defensive thinking  
+
+---
+
+## Key Takeaways
+- Users are more likely to engage with emails that create urgency.
+- Sender domain verification is critical in identifying phishing attempts.
+- Security awareness training significantly reduces organizational risk.
 
 ---
 
 ## Future Improvements
-- Add Docker-based deployment
-- Integrate phishing email header analysis
-- Simulate detection via SIEM alerts
-- Add defensive email filtering rules
+- Deploy the lab using Docker for portability  
+- Integrate logs with a SIEM for alert simulation  
+- Create multiple phishing scenarios for behavioral comparison  
+- Implement defensive email filtering rules  
 
 ---
 
 ## Author
-Damian Chevalier
+**Damian Chevalier**  
+Cybersecurity Enthusiast | Aspiring SOC Analyst
+
