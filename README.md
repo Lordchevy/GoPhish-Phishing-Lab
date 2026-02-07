@@ -38,7 +38,7 @@ Using the terminal, project directories were created and accessed to organize to
 ---
 
 <p align="center">
-  <img src="config-edit.png" width="700">
+  <img src="config-edit.png" width="400">
 </p>
 
 ### Configuration Management
