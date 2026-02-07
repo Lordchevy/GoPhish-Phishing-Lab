@@ -25,7 +25,7 @@ This lab was performed using isolated infrastructure and test accounts only. No 
 ## Campaign Dashboard
 
 <p align="center">
-  <img src=" width="700">
+  <img src="CampaignDashboard.png"width="700">
 </p>
 
 The GoPhish dashboard provided centralized visibility into campaign performance, enabling monitoring of email delivery, opens, clicks, and overall engagement.
@@ -55,7 +55,7 @@ The landing page was hosted within the lab to safely track user interaction afte
 ## Campaign Results
 
 <p align="center">
-  <img src="screenshots/campaign-results.png" width="700">
+  <img src="CampaignResults.png" width="700">
 </p>
 
 Metrics collected from the simulation helped illustrate how phishing attacks succeed and reinforced the importance of user awareness training.
