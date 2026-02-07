@@ -129,13 +129,6 @@ Metrics collected from the simulation helped illustrate how phishing attacks suc
 
 ---
 
-## Key Takeaways
-- Users are more likely to engage with emails that create urgency.
-- Sender domain verification is critical in identifying phishing attempts.
-- Security awareness training significantly reduces organizational risk.
-
----
-
 ## Future Improvements
 - Deploy the lab using Docker for portability  
 - Integrate logs with a SIEM for alert simulation  
