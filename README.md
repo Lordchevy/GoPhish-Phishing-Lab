@@ -25,7 +25,7 @@ This lab was performed using isolated infrastructure and test accounts only. No 
 ## Campaign Dashboard
 
 <p align="center">
-  <img src="screenshots/dashboard.png" width="700">
+  <img src="CampaignDash.png" width="700">
 </p>
 
 The GoPhish dashboard provided centralized visibility into campaign performance, enabling monitoring of email delivery, opens, clicks, and overall engagement.
@@ -35,7 +35,7 @@ The GoPhish dashboard provided centralized visibility into campaign performance,
 ## Email Template Example
 
 <p align="center">
-  <img src="screenshots/email-template.png" width="700">
+  <img src="EmailTemplate.png" width="700">
 </p>
 
 A realistic email scenario was created to replicate common phishing tactics such as urgency and account verification prompts.
@@ -45,7 +45,7 @@ A realistic email scenario was created to replicate common phishing tactics such
 ## Landing Page Simulation
 
 <p align="center">
-  <img src="screenshots/landing-page.png" width="700">
+  <img src="LandingPage.png" width="700">
 </p>
 
 The landing page was hosted within the lab to safely track user interaction after link clicks without collecting sensitive information.
