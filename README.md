@@ -9,7 +9,12 @@ This lab was performed using isolated infrastructure and test accounts only. No 
 ---
 
 ## Lab Architecture
+1. Deployed a locally hosted GoPhish server to manage phishing simulation campaigns.  
+2. Configured a test SMTP sending profile to safely distribute simulated phishing emails.  
+3. Hosted a controlled landing page to capture interaction metrics.  
+4. Analyzed campaign data through the GoPhish dashboard to evaluate behavioral risk.  
 
+---
 <p align="center">
   <img src="Architecture.png" width="600">
 </p>
