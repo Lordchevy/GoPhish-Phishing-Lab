@@ -26,18 +26,14 @@ The goal of this lab is to understand how phishing attacks are conducted, how us
 ---
 
 ## Lab Architecture
+
 <img src="Architecture.png" width="350">
-1.  GoPhish server hosted locally
-2.  Email sending profile configured with test SMTP
-3.  Landing page hosted for interaction tracking
-4.  Campaign metrics analyzed via GoPhish dashboard
 
-## Lab Architecture
+1. GoPhish server hosted locally  
+2. Email sending profile configured with test SMTP  
+3. Landing page hosted for interaction tracking  
+4. Campaign metrics analyzed via GoPhish dashboard  
 
-1. GoPhish server hosted locally
-2. Email sending profile configured with test SMTP
-3. Landing page hosted for interaction tracking
-4. Campaign metrics analyzed via GoPhish dashboard
 
 
 ---
